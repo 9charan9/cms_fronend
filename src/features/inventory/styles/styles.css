@@ -1,0 +1,28 @@
+.cop_main{
+    border-radius: 7px; 
+}
+.clasofprts_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.estimation_bom{
+    width: 4rem;
+    height: 20px;
+    margin-left: 20px;
+    padding: 3px;
+}
+.ss{
+    /* width: 200px; */
+}
+.req_qty{
+    font-size: 10px;
+    margin: 0;
+    margin-left: 20px;
+}

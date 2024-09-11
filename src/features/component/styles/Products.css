@@ -1,0 +1,60 @@
+.filter-btn:hover,
+.filter-btn:active {
+    background: transparent;
+    color: #000;
+    background-color: transparent !important
+}
+
+.delete-btn,
+.delete-btn:hover,
+.delete-btn:active {
+    background: #8E8EA1 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    font-size: 13px !important;
+    height: auto !important;
+}
+
+.title-tag {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+img.me-3 {
+    width: 17px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.c-table th {
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667080;
+
+}
+
+.c-table td {
+    background: #EFF1F9;
+    border: 1px solid #DFE2EC;
+    border-right: 1px solid transparent !important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.c-table td:last-child {
+
+    border-right: 1px solid #DFE2EC !important;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .c-table th,
+    .c-table td {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 10px 270px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+
+
+.header-title input[type=search] {
+    border: 1px solid #667080;
+    border-radius: 6px;
+    height: 40px;
+    width: 300px;
+    background: url(../../public/images/search.svg)no-repeat 96% center;
+}
+
+.header-nav .btn-outline-dark,
+.header-nav .btn-outline-dark:hover {
+    color: #8E8EA1;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #8E8EA1;
+    border-radius: 10px;
+    height: 40px;
+    background: #fff;
+    min-width: 160px;
+}
+
+.right-h-nav a {
+    margin-left: 20px;
+}
+
+.add_new_category {
+    margin-right: 20px;
+}
+
+.custom-modal {
+    position: fixed;
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    overflow: hidden;
+}
+
+.custom-modal .modal-dialog .modal-content {
+    height: auto;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.add-category-text {
+    margin: 4rem 4rem 2rem;
+}
+
+.add-attributes-text {
+    margin: 2rem 3rem 2rem;
+}
+
+.add_category_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.add-attributes-container {
+    display: flex;
+    justify-items: center;
+}
+
+.add-attributes-container .add-attributes-btn {
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.add_attributes_btns {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.delete_attribute {
+    position: relative;
+    font-size: 14px;
+    left: 7px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.add_attributes_dynamically {
+    display: flex;
+    justify-content: center;
+    min-width: 105%;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .header-nav .btn-outline-dark,
+    .header-nav .btn-outline-dark:hover {
+        font-size: 14px;
+        line-height: 19px;
+        height: 33px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .add_new_category.margin-10 {
+        margin-right: 10px;
+    }
+
+    .add_new_category {
+        margin-right: 0px;
+    }
+
+    .header {
+        padding: 15px 10px 10px 10px;
+        justify-content: space-around;
+    }
+
+    .right-h-nav a {
+        margin-left: 12px;
+    }
+
+    .custom-modal {
+        width: 100%;
+    }
+
+    .header-nav {
+        margin-top: 45px;
+        z-index: 999;
+    }
+
+    .add-attributes-text {
+        font-size: 13px;
+    }
+
+    .header-title input[type=search] {
+        height: 35px;
+        width: 103px;
+
+    }
+}

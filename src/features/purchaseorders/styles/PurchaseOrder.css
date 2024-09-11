@@ -1,0 +1,234 @@
+.pending-btn.btn,
+.pending-btn.btn:hover {
+    border-radius: 100px;
+    background: rgba(217, 217, 217, 0.40);    
+    border: 0;
+    color: #000;
+    min-width: 175px;
+    line-height: 2.5;
+}
+.received-btn.btn,
+.received-btn.btn:hover {
+    border-radius: 100px;
+    background: #E7EBFA;   
+    border: 0;
+    color: #000;
+    min-width: 175px;
+    line-height: 2.5;
+}
+
+.p-table tr:nth-child(even) td {
+    background: #F4F5F9;
+}
+
+.p-table tr:nth-child(odd) td {
+    background: #fff;
+}
+
+.p-table td {
+    vertical-align: middle;
+    border: 0
+}
+
+.p-table th {
+    border: 0;
+}
+
+.tabs-header {
+    font-size: 14px !important;
+}
+
+.p-table td:first-child {
+    cursor: pointer;
+}
+
+.documentsheader {
+    font-size: 12px;
+}
+
+/* .modal-dialog.modal-dialog-centered {
+    max-width: 75% !important;
+} */
+
+.linkformodal {
+    cursor: pointer;
+}
+
+.border-top {
+    border-bottom: hidden;
+    border-style: none;
+}
+
+.documents-input-tag {
+    height: 70px;
+}
+
+.terms_conditions {
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px
+}
+
+.terms_headers {
+    color: #A2A2A2;
+}
+
+.fail-btn.btn,
+.fail-btn.btn:hover {
+    border-radius: 50px;
+    background: rgba(217, 217, 217, 0.40);
+    padding: 5px 25px;
+    border: 0;
+    color: #000;
+}
+
+.r-table td {
+    vertical-align: middle;
+    border: 0
+}
+
+.r-table th {
+    border: 0;
+}
+
+.ordered-number-txt,
+text:hover {
+    background: rgba(217, 217, 217, 0.40);
+}
+
+.border-top {
+    border-bottom: hidden;
+    border-style: none;
+}
+
+.r-table tr:last-child td {
+    padding-bottom: 30px !important;
+}
+
+.pdf-tag {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inward-modal .modal-dialog {
+    max-width: 79%;
+}
+
+span.dwn-doc {
+    cursor: pointer;
+}
+
+.picsec {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(44, 40, 40, 0.25);
+    padding: 2px;
+}
+.picdwn{
+    width: 9px;
+    height: 10px;
+    background: #667080;
+    border-radius: 2px;
+    bottom: 4px;
+    right: 4px;
+    cursor: pointer;
+}
+.picsec img {
+    width: 100%;
+    height: 100%;
+}
+.picsec .picdwn img{
+    width: 4px;
+    height: 5px;
+    position: relative;
+    top: -5px;
+    left: 2px;
+}
+.react-datepicker-wrapper {
+    width: 100%;
+}
+table .inputno{
+    max-width: 135px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+table .rack{
+    max-width: 125px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.tdfix{
+    max-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.table-nowrap th, .table-nowrap td{
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1550px) {
+    .fail-btn.btn,
+.fail-btn.btn:hover {
+   font-size: 12px;
+}
+
+    .btn-gate-entry,
+    .btn-gate-entry:hover {
+        font-size: 12px;
+        height: 30px;
+        line-height: 14px;
+    }
+
+    .p-table th,
+    .p-table td {
+        font-size: 14px;
+    }
+
+    .pending-btn.btn,
+    .pending-btn.btn:hover,
+    .received-btn.btn,
+    .received-btn.btn:hover {
+        padding: 0px;
+        font-size: 12px;       
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .inward-modal .modal-dialog {
+        max-width: 100%;
+    }
+}
+.doc-header{
+    font-size: 18px;
+    line-height: 22px;
+    color: #A2A2A2;
+    font-weight: normal;
+    margin-bottom: 3px !important;
+}
+.main-div-attach div:nth-child(2) .attachment-sec {
+    margin-top: 37px;
+}
+
+.main-div-attach div:nth-child(3) .attachment-sec {
+    margin-top: 37px;
+}
+.main-div-attach div:nth-child(4) .attachment-sec {
+    margin-top: 37px;
+   
+}
+.main-div-attach div:nth-child(n+5){
+    margin-bottom: 15px;
+
+}
+.description-tab{
+    height: 100px !important;
+}

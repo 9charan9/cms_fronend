@@ -1,0 +1,125 @@
+.rectangular-box {
+    border: 1px solid #706f6f; /* Adjust border properties as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 0px; /* Optional: Add border radius for rounded corners */
+  }
+
+  .single-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+
+.cancle_tr th{
+  font-weight: bold;
+} 
+
+.background{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.main-tag{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.span-data{
+  color: gray;
+  font-size: 14px;
+}
+
+
+.timeline-container{
+  width: 60%;
+  
+}
+
+#timeline{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.timeline-item{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+
+}
+
+.timeline-separator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+  background-color: black !important;
+}
+
+.befor-timeline-dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+  background-color: lightgray !important;
+}
+
+.check-mark{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 16px ! important;
+  font-weight: bold;
+}
+
+.timeline-connector {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 11px) !important;
+  width: calc(100% - 28px) !important;
+  height: 2px;
+  background-color: black !important;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+.timeline-content {
+font-size: 12px !important;
+white-space: nowrap;
+}
+
+.card-container{
+display: flex;
+justify-content: center;
+width: 50%;
+margin: 0 auto;
+}
+
+.card-timeline-connector {
+position: absolute;
+top: 50%;
+left: calc(50% + 11px) !important;
+width: calc(100% - 14px) !important;
+height: 2px;
+background-color: lightgray !important;
+z-index: 1;
+transform: translateX(-50%);
+}

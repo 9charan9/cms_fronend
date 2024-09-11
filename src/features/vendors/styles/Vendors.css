@@ -1,0 +1,133 @@
+.input-100 {
+    width: 120px;
+    max-width: 120px;
+}
+.contact-details-column {
+    overflow-wrap: break-word;
+    max-width: 5px;
+}
+
+.red-asterisk {
+    color: red;
+  }
+
+label.cfile {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    text-align: right;
+}
+
+label.dfile {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    text-align: right;
+}
+
+.form-select {
+    border-radius: 10px;
+    border: 1px solid #8E8EA1;
+}
+
+.attachment-sec {
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 13px;
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attachment-icon {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.doc-card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(44, 40, 40, 0.25);
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc-sec {
+    bottom: 5px;
+    width: 90%;
+}
+
+.view.btn {
+    background: #667080;
+    border-radius: 5px;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    justify-content: center
+}
+.final-btns{
+    position: relative;
+    top: 200px;
+}
+.nav-tabs .nav-link.active {
+    border-color: #667080;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #667080;
+    color: #667080;
+}
+
+.ratingcb {
+    visibility: hidden;
+}
+span.attachment-name {
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.outward_underline{
+    text-decoration: underline;
+}
+.privew-align {
+    max-height: 250px;
+}
+
+.textfont,.pdf-tagg{font-size: 12px;white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;width: 97%;}
+.cmodal .modal-dialog{width: 70%;max-width: 70%;margin:auto}
+.textdark{color: #212529 !important;font-size: 14px;}
+@media only screen and (max-width: 1500px) {
+    .textfont_type{
+        font-size: 12px;
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .vendorpartno-sec.partno-sec .tab-sec .tab-content {
+        margin-top: 7px;
+    }
+    .cmodal .modal-dialog{width: 100%;max-width: 100%;}
+}
+.modal-content {
+    padding: 10px;
+}
